@@ -1,0 +1,1106 @@
+{
+  "specialMenu": [
+    { "id": 1, "title": "Acil Acil", "icon": "exclamation" },
+    { "id": 2, "title": "Son 48 Saat / 1 Hafta / 1 Ay", "icon": "clock" }
+  ],
+  "baslik":[
+    { "id": 1, "title": "Yepy ile yenilenmiş cihazlar" }
+  ],
+
+  "categoryAuto":[
+    {"key": "otomotiv",
+   "title": "Oto360",
+  "subItems":[
+    {"label": "Oto Ekspertiz"},
+    {"label": "Tümünü göster"}
+  ]}
+  ],
+  "categoryEmlak":[
+    {"key": "emlak",
+   "title": "Emlak360"
+    }
+  ],
+
+  "categories": [
+    
+    {
+      "key": "emlak",
+      "title": "Emlak",
+      "count": "1.316.981",
+      "icon": "home",
+      "color": "#f2c300",
+      "subItems": [
+        { "label": "Konut", "count": "862.419" },
+        { "label": "İş Yeri", "count": "122.093" },
+        { "label": "Arsa", "count": "317.649" },
+        { "label": "Konut Projeleri", "count": "1.474" },
+        { "label": "Bina", "count": "10.863" },
+        { "label": "Devre Mülk", "count": "2.192" },
+        { "label": "Turistik Tesis", "count": "1.766" }
+      ]
+    },
+    {
+      "key": "vasita",
+      "title": "Vasıta",
+      "count": "805.684",
+      "icon": "car",
+      "color": "#d13737",
+      "subItems": [
+        { "label": "Otomobil", "count": "396.755" },
+        { "label": "Arazi, SUV & Pickup", "count": "105.406" },
+        { "label": "Motosiklet", "count": "122.757" },
+        { "label": "Minivan & Panelvan", "count": "83.819" },
+        { "label": "Ticari Araçlar", "count": "53.474" }
+      ]
+    },
+    {
+      "key": "yedek_parca",
+      "title": "Yedek Parça, Aksesuar, Donanım & Tuning",
+      "count": "3.116.167",
+      "icon": "shopping",
+      "color": "#4b92b5",
+      "subItems": [
+        { "label": "Otomotiv Ekipmanları", "count": "1.412.981" },
+        { "label": "Motosiklet Ekipmanları", "count": "1.603.186"},
+        { "label": "Deniz Aracı Ekipmanları", "count": "100.000" }
+        
+      ]
+    },
+    {
+      "key": "alisveris",
+      "title": "İkinci El ve Sıfır Alışveriş",
+      "count": "3.013.197",
+      "icon": "market",
+      "color": "#2a9d8f",
+      "description": "Bu kategorideki ilanlar döngüsel ekonomiye katkı sağlıyor",
+      "subItems": [
+        { "label": "Bilgisayar", "count": "336.233" },
+        { "label": "Cep Telefonu & Aksesuar", "count": "350.878" },
+        { "label": "Fotoğraf & Kamera", "count": "55.730" },
+        { "label": "Ev Dekorasyon", "count": "353.355" },
+        { "label": "Ev Elektroniği", "count": "109.808" },
+        { "label": "Elektrikli Ev Aletleri", "count": "193.311" },
+        { "label": "Giyim & Aksesuar", "count": "188.211" },
+        { "label": "Saat", "count": "77.660" },
+        { "label": "Anne & Bebek", "count": "89.655" },
+        { "label": "Kişisel Bakım & Kozmetik", "count": "53.197" },
+        { "label": "Hobi & Oyuncak", "count": "153.262" },
+        { "label": "Oyunculara Özel", "count": "107.779" },
+        { "label": "Kitap, Dergi & Film", "count": "40.170" },
+        { "label": "Müzik", "count": "90.600" },
+        { "label": "Spor", "count": "211.288" },
+        { "label": "Takı & Mücevher", "count": "9.849" },
+        { "label": "Koleksiyon", "count": "73.704" },
+        { "label": "Antika", "count": "74.932" },
+        { "label": "Bahçe & Yapı Market", "count": "219.912" },
+        { "label": "Teknik Elektronik", "count": "109.565" },
+        { "label": "Ofis & Kırtasiye", "count": "91.183" },
+        { "label": "Yiyecek & İçecek", "count": "4.994" },
+        { "label": "Diğer Her Şey", "count": "17.925" }
+      ]
+    }
+    ,
+    {
+      "key": "yenilenmis",
+      "title": "Yepyyeni",
+      "count": null,
+      "icon": "",
+      "color": "#6c757d",
+      "subItems": [
+        { "label": "Yepyenilenmiş teknolojik cihazlar", "count": "332" }
+      ]
+    },
+    {
+      "key": "is_makineleri_sanayi",
+      "title": "İş Makineleri & Sanayi",
+      "count": "138.071",
+      "icon": "truck",
+      "color": "#d2691e",
+      "subItems": [
+        { "label": "İş Makineleri", "count": "24.542" },
+        { "label": "Tarım Makineleri", "count": "44.393" },
+        { "label": "Sanayi", "count": "65.002" },
+        { "label": "Elektrik & Enerji", "count": "4.134" }
+      ]
+    },
+    {
+      "key": "ustalar",
+      "title": "Ustalar ve Hizmetler",
+      "count": "10.000",
+      "icon": "highlight",
+      "color": "#ff7f50",
+      "subItems": [
+        { "label": "Ev Tadilat & Dekorasyon" },
+        { "label": "Nakliye" },
+        { "label": "Araç Servis & Bakım" },
+        { "label": "Tümünü Göster" }
+      ]
+    },
+    {
+      "key": "ozel_ders",
+      "title": "Özel Ders Verenler",
+      "count": "16.592",
+      "icon": "book",
+      "color": "#8a2be2",
+      "subItems": [
+        { "label": "Lise & Üniversite", "count": "3.285" },
+        { "label": "İlkokul & Ortaokul", "count": "7.000" },
+        { "label": "Yabancı Dil", "count": "3.335" },
+        { "label": "Tümünü Göster" }
+      ]
+    },
+    {
+      "key": "is_ilani",
+      "title": "İş İlanları",
+      "count": "28.681",
+      "icon": "idcard",
+      "color": "#20b2aa",
+      "subItems": [
+        { "label": "Avukatlık & Hukuki Danışmanlık", "count": "34" },
+        { "label": "Eğitim", "count": "410" },
+        { "label": "Eğlence & Aktivite", "count": "320" },
+        { "label": "Güzellik & Bakım", "count": "1.867" },
+        { "label": "IT & Yazılım Geliştirme", "count": "53" },
+        { "label": "İnsan Kaynakları", "count": "36" },
+        { "label": "Tümünü Göster" }
+      ]
+    },
+    {
+      "key": "hayvanlar",
+      "title": "Hayvanlar Alemi",
+      "count": "133.954",
+      "icon": "bug",
+      "color": "#6aa84f",
+      "subItems": [
+        { "label": "Evcil Hayvanlar", "count": "5.699" },
+        { "label": "Akvaryum Balıkları", "count": "8.282" },
+        { "label": "Aksesuarlar", "count": "20.462" },
+        { "label": "Bakım Ürünleri", "count": "534" },
+        { "label": "Yem & Mama", "count": "1.229" },
+        { "label": "Kümes Hayvanları", "count": "77.019" },
+        { "label": "Büyükbaş Hayvanlar", "count": "2.882" },
+        { "label": "Küçükbaş Hayvanlar", "count": "17.320" },
+        { "label": "Tümünü Göster" }
+      ]
+    },
+    {
+      "key": "yardimci_arayanlar",
+      "title": "Yardımcı Arayanlar",
+      "count": "1.220",
+      "icon": "plusCircle",
+      "color": "#adb5bd",
+      "subItems": [
+        { "label": "Bebek & Çocuk Bakıcısı", "count": "385" },
+        { "label": "Yaşlı & Hasta Bakıcısı", "count": "160" },
+        { "label": "Temizlikçi & Ev İşlerine Yardımcı", "count": "675" }
+      ]
+    }
+    
+  ],
+
+  "sectiklerimiz": [
+    { "id": 1, "title": "Hikayeni Paylaş", "icon": "comment", "color": "#f39c12" },
+    { "id": 2, "title": "Efsane İlanlar", "icon": "smile", "color": "#2ecc71" },
+    { "id": 3, "title": "İlginç İlanlar", "icon": "star", "color": "#3498db" }
+  ],
+  
+  "showcase": [
+    { 
+      "id": 1, 
+      "title": "Sahibinden Temiz Aile Aracı", 
+      "image": "https://picsum.photos/800/600?random=1", 
+      "price": "950.000 TL", 
+      "location": "İstanbul / Maltepe", 
+      "date": "10 Aralık 2025", 
+      "brand": "Fiat", 
+      "model": "Egea Cross", 
+      "year": 2021, 
+      "fuel": "Benzin", 
+      "gear": "Manuel",
+      "seller": { 
+        "name": "Ahmet Y.", 
+        "date": "Ocak 2020", 
+        "phone": "0 (532) 123 45 67",
+        "verified": true,
+        "rating": 4.8,
+        "listingCount": 15
+      }
+    },
+    { 
+      "id": 2, 
+      "title": "Acil Satılık Deniz Manzaralı", 
+      "image": "https://picsum.photos/800/600?random=2", 
+      "price": "5.250.000 TL", 
+      "location": "İzmir / Çeşme", 
+      "date": "11 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Villa", 
+      "year": 2015, 
+      "fuel": "Klima", 
+      "gear": "-",
+      "seller": { "name": "Ege Emlak", "date": "Mart 2018", "phone": "0 (232) 444 55 66" }
+    },
+    { 
+      "id": 3, 
+      "title": "Yatırımlık Arsa Fırsatı", 
+      "image": "https://picsum.photos/800/600?random=3", 
+      "price": "1.500.000 TL", 
+      "location": "Ankara / Gölbaşı", 
+      "date": "12 Aralık 2025", 
+      "brand": "Arsa", 
+      "model": "İmarlı", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Mehmet K.", "date": "Şubat 2021", "phone": "0 (555) 987 65 43" }
+    },
+    { 
+      "id": 4, 
+      "title": "2023 Model Sıfır Ayarında", 
+      "image": "https://picsum.photos/800/600?random=4", 
+      "price": "1.100.000 TL", 
+      "location": "Bursa / Nilüfer", 
+      "date": "12 Aralık 2025", 
+      "brand": "Renault", 
+      "model": "Clio 1.0 TCe", 
+      "year": 2023, 
+      "fuel": "Benzin", 
+      "gear": "Otomatik",
+      "seller": { "name": "Yeşil Oto Galeri", "date": "Mayıs 2015", "phone": "0 (224) 222 33 44" }
+    },
+    { 
+      "id": 5, 
+      "title": "Merkezi Konumda 2+1", 
+      "image": "https://picsum.photos/800/600?random=5", 
+      "price": "25.000 TL", 
+      "location": "İstanbul / Beşiktaş", 
+      "date": "13 Aralık 2025", 
+      "brand": "Kiralık", 
+      "model": "Daire", 
+      "year": 2010, 
+      "fuel": "Doğalgaz", 
+      "gear": "-",
+      "seller": { "name": "Selin D.", "date": "Eylül 2022", "phone": "0 (533) 111 22 33" }
+    },
+    { 
+      "id": 6, 
+      "title": "Öğrenciye Uygun Eşyalı", 
+      "image": "https://picsum.photos/800/600?random=6", 
+      "price": "12.000 TL", 
+      "location": "Eskişehir / Tepebaşı", 
+      "date": "13 Aralık 2025", 
+      "brand": "Kiralık", 
+      "model": "Stüdyo", 
+      "year": 2018, 
+      "fuel": "Kombi", 
+      "gear": "-",
+      "seller": { "name": "Kampüs Emlak", "date": "Ekim 2019", "phone": "0 (222) 333 44 55" }
+    },
+    { 
+      "id": 7, 
+      "title": "Kelepir Fiyatına Dükkan", 
+      "image": "https://picsum.photos/800/600?random=7", 
+      "price": "450.000 TL", 
+      "location": "İstanbul / Fatih", 
+      "date": "14 Aralık 2025", 
+      "brand": "İşyeri", 
+      "model": "Kafe", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Kemal B.", "date": "Kasım 2010", "phone": "0 (542) 666 77 88" }
+    },
+    { 
+      "id": 8, 
+      "title": "Sahibinden Satılık Villa", 
+      "image": "https://picsum.photos/800/600?random=8", 
+      "price": "18.500.000 TL", 
+      "location": "Muğla / Bodrum", 
+      "date": "14 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Müstakil", 
+      "year": 2022, 
+      "fuel": "Yerden Isıtma", 
+      "gear": "-",
+      "seller": { "name": "Elite Gayrimenkul", "date": "Haziran 2017", "phone": "0 (252) 313 14 15" }
+    },
+    { 
+      "id": 9, 
+      "title": "Doktordan Temiz Araç", 
+      "image": "https://picsum.photos/800/600?random=9", 
+      "price": "1.850.000 TL", 
+      "location": "Ankara / Çankaya", 
+      "date": "15 Aralık 2025", 
+      "brand": "Volkswagen", 
+      "model": "Passat B8", 
+      "year": 2019, 
+      "fuel": "Dizel", 
+      "gear": "Otomatik",
+      "seller": { "name": "Dr. Murat S.", "date": "Aralık 2023", "phone": "0 (505) 555 44 33" }
+    },
+    { 
+      "id": 10, 
+      "title": "Büyük Fırsat Kaçmaz", 
+      "image": "https://picsum.photos/800/600?random=10", 
+      "price": "3.200.000 TL", 
+      "location": "Antalya / Kaş", 
+      "date": "15 Aralık 2025", 
+      "brand": "Arsa", 
+      "model": "Zeytinlik", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Akdeniz Yatırım", "date": "Temmuz 2016", "phone": "0 (242) 836 10 20" }
+    },
+    { 
+      "id": 11, 
+      "title": "Kiralık Yazlık Sezonluk", 
+      "image": "https://picsum.photos/800/600?random=11", 
+      "price": "150.000 TL", 
+      "location": "Aydın / Kuşadası", 
+      "date": "16 Aralık 2025", 
+      "brand": "Kiralık", 
+      "model": "Yazlık", 
+      "year": "-", 
+      "fuel": "Klima", 
+      "gear": "-",
+      "seller": { "name": "Ayşe T.", "date": "Nisan 2021", "phone": "0 (530) 123 98 76" }
+    },
+    { 
+      "id": 12, 
+      "title": "Gaming Laptop Garantili", 
+      "image": "https://picsum.photos/800/600?random=12", 
+      "price": "42.500 TL", 
+      "location": "İstanbul / Kadıköy", 
+      "date": "16 Aralık 2025", 
+      "brand": "MSI", 
+      "model": "Katana GF76", 
+      "year": 2023, 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "TeknoMarket", "date": "Ocak 2019", "phone": "0 (216) 444 0 444" }
+    },
+    { 
+      "id": 13, 
+      "title": "iPhone 15 Pro Max", 
+      "image": "https://picsum.photos/800/600?random=13", 
+      "price": "82.000 TL", 
+      "location": "İzmir / Karşıyaka", 
+      "date": "17 Aralık 2025", 
+      "brand": "Apple", 
+      "model": "iPhone 15 PM", 
+      "year": 2024, 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Caner K.", "date": "Kasım 2023", "phone": "0 (532) 000 11 22" }
+    },
+    { 
+      "id": 14, 
+      "title": "Antika Yemek Masası", 
+      "image": "https://picsum.photos/800/600?random=14", 
+      "price": "15.000 TL", 
+      "location": "İstanbul / Üsküdar", 
+      "date": "17 Aralık 2025", 
+      "brand": "Antika", 
+      "model": "Ahşap", 
+      "year": 1950, 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Nostalji Dünyası", "date": "Şubat 2014", "phone": "0 (216) 333 22 11" }
+    },
+    { 
+      "id": 15, 
+      "title": "Hatasız Boyasız Honda", 
+      "image": "https://picsum.photos/800/600?random=15", 
+      "price": "1.350.000 TL", 
+      "location": "Adana / Seyhan", 
+      "date": "18 Aralık 2025", 
+      "brand": "Honda", 
+      "model": "Civic Eco", 
+      "year": 2020, 
+      "fuel": "LPG/Benzin", 
+      "gear": "Otomatik",
+      "seller": { "name": "Hakan O.", "date": "Mart 2022", "phone": "0 (507) 123 45 67" }
+    },
+    { 
+      "id": 16, 
+      "title": "Acil Nakit İhtiyacından", 
+      "image": "https://picsum.photos/800/600?random=16", 
+      "price": "750.000 TL", 
+      "location": "Kocaeli / Gebze", 
+      "date": "18 Aralık 2025", 
+      "brand": "Ford", 
+      "model": "Fiesta", 
+      "year": 2017, 
+      "fuel": "Dizel", 
+      "gear": "Manuel",
+      "seller": { "name": "Veli Ç.", "date": "Nisan 2020", "phone": "0 (544) 234 56 78" }
+    },
+    { 
+      "id": 17, 
+      "title": "Yatırımlık Zeytinlik", 
+      "image": "https://picsum.photos/800/600?random=17", 
+      "price": "600.000 TL", 
+      "location": "Balıkesir / Edremit", 
+      "date": "19 Aralık 2025", 
+      "brand": "Arsa", 
+      "model": "Zeytinlik", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Kazdağları Emlak", "date": "Mayıs 2013", "phone": "0 (266) 373 12 34" }
+    },
+    { 
+      "id": 18, 
+      "title": "Sıfır Ayarında iPhone 14", 
+      "image": "https://picsum.photos/800/600?random=18", 
+      "price": "48.000 TL", 
+      "location": "İstanbul / Şişli", 
+      "date": "19 Aralık 2025", 
+      "brand": "Apple", 
+      "model": "iPhone 14", 
+      "year": 2023, 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Mobil İletişim", "date": "Haziran 2021", "phone": "0 (212) 222 33 44" }
+    },
+    { 
+      "id": 19, 
+      "title": "PlayStation 5 Çift Kol", 
+      "image": "https://picsum.photos/800/600?random=19", 
+      "price": "22.000 TL", 
+      "location": "İstanbul / Bakırköy", 
+      "date": "19 Aralık 2025", 
+      "brand": "Sony", 
+      "model": "PS5 Slim", 
+      "year": 2024, 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Oyun Dünyası", "date": "Eylül 2020", "phone": "0 (535) 999 88 77" }
+    },
+    { 
+      "id": 20, 
+      "title": "Müstakil Bahçeli Ev", 
+      "image": "https://picsum.photos/800/600?random=20", 
+      "price": "3.750.000 TL", 
+      "location": "Bursa / Mudanya", 
+      "date": "20 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Müstakil", 
+      "year": 2005, 
+      "fuel": "Doğalgaz", 
+      "gear": "-",
+      "seller": { "name": "Deniz Emlak", "date": "Ekim 2012", "phone": "0 (224) 544 55 66" }
+    },
+    { 
+      "id": 21, 
+      "title": "Ticari Taksi Çıkması Değil", 
+      "image": "https://picsum.photos/800/600?random=21", 
+      "price": "550.000 TL", 
+      "location": "İstanbul / Bağcılar", 
+      "date": "20 Aralık 2025", 
+      "brand": "Fiat", 
+      "model": "Linea", 
+      "year": 2015, 
+      "fuel": "Dizel", 
+      "gear": "Manuel",
+      "seller": { "name": "Ali Rıza B.", "date": "Kasım 2019", "phone": "0 (532) 111 00 99" }
+    },
+    { 
+      "id": 22, 
+      "title": "Öğretmenden Temiz Araç", 
+      "image": "https://picsum.photos/800/600?random=22", 
+      "price": "880.000 TL", 
+      "location": "Ankara / Etimesgut", 
+      "date": "21 Aralık 2025", 
+      "brand": "Toyota", 
+      "model": "Auris", 
+      "year": 2014, 
+      "fuel": "Benzin", 
+      "gear": "Otomatik",
+      "seller": { "name": "Kemal Hoca", "date": "Ocak 2015", "phone": "0 (505) 123 45 67" }
+    },
+    { 
+      "id": 23, 
+      "title": "Manzaralı Teras Kat", 
+      "image": "https://picsum.photos/800/600?random=23", 
+      "price": "4.100.000 TL", 
+      "location": "İstanbul / Beykoz", 
+      "date": "21 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Daire", 
+      "year": 2012, 
+      "fuel": "Kombi", 
+      "gear": "-",
+      "seller": { "name": "Boğaz Emlak", "date": "Mart 2010", "phone": "0 (216) 322 33 22" }
+    },
+    { 
+      "id": 24, 
+      "title": "Kiralık Dükkan Depo", 
+      "image": "https://picsum.photos/800/600?random=24", 
+      "price": "10.000 TL", 
+      "location": "İstanbul / Tuzla", 
+      "date": "22 Aralık 2025", 
+      "brand": "İşyeri", 
+      "model": "Depo", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Sanayi Emlak", "date": "Nisan 2018", "phone": "0 (533) 444 55 66" }
+    },
+    { 
+      "id": 25, 
+      "title": "İkinci El Temiz Buzdolabı", 
+      "image": "https://picsum.photos/800/600?random=25", 
+      "price": "5.000 TL", 
+      "location": "İzmir / Buca", 
+      "date": "22 Aralık 2025", 
+      "brand": "Arçelik", 
+      "model": "No Frost", 
+      "year": 2019, 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Öğrenci Evi", "date": "Mayıs 2023", "phone": "0 (555) 123 12 12" }
+    },
+    { 
+      "id": 26, 
+      "title": "Samsung Galaxy S23 Ultra", 
+      "image": "https://picsum.photos/800/600?random=26", 
+      "price": "45.000 TL", 
+      "location": "Ankara / Kızılay", 
+      "date": "23 Aralık 2025", 
+      "brand": "Samsung", 
+      "model": "S23 Ultra", 
+      "year": 2023, 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Mobil Shop", "date": "Haziran 2017", "phone": "0 (312) 418 00 00" }
+    },
+    { 
+      "id": 27, 
+      "title": "Çok Temiz Dağ Bisikleti", 
+      "image": "https://picsum.photos/800/600?random=27", 
+      "price": "4.500 TL", 
+      "location": "Bursa / Osmangazi", 
+      "date": "23 Aralık 2025", 
+      "brand": "Salcano", 
+      "model": "NG 650", 
+      "year": 2022, 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Bisikletçi Amca", "date": "Temmuz 2016", "phone": "0 (224) 222 11 22" }
+    },
+    { 
+      "id": 28, 
+      "title": "Klasik Gitar Kılıflı", 
+      "image": "https://picsum.photos/800/600?random=28", 
+      "price": "2.000 TL", 
+      "location": "İstanbul / Beşiktaş", 
+      "date": "24 Aralık 2025", 
+      "brand": "Yamaha", 
+      "model": "C40", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Müzik Sever", "date": "Ağustos 2022", "phone": "0 (532) 987 65 43" }
+    },
+    { 
+      "id": 29, 
+      "title": "Ankara Merkezde 1+1", 
+      "image": "https://picsum.photos/800/600?random=29", 
+      "price": "2.200.000 TL", 
+      "location": "Ankara / Çankaya", 
+      "date": "24 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Daire", 
+      "year": 2020, 
+      "fuel": "Doğalgaz", 
+      "gear": "-",
+      "seller": { "name": "Başkent Yapı", "date": "Eylül 2015", "phone": "0 (312) 444 55 66" }
+    },
+    { 
+      "id": 30, 
+      "title": "İstanbul Boğaz Manzaralı", 
+      "image": "https://picsum.photos/800/600?random=30", 
+      "price": "12.000.000 TL", 
+      "location": "İstanbul / Sarıyer", 
+      "date": "25 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Daire", 
+      "year": 2000, 
+      "fuel": "Kombi", 
+      "gear": "-",
+      "seller": { "name": "Luxury Home", "date": "Ekim 2014", "phone": "0 (212) 200 30 40" }
+    },
+    { 
+      "id": 31, 
+      "title": "İzmir'de Yazlık Villa", 
+      "image": "https://picsum.photos/800/600?random=31", 
+      "price": "7.500.000 TL", 
+      "location": "İzmir / Urla", 
+      "date": "25 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Villa", 
+      "year": 2019, 
+      "fuel": "Isı Pompası", 
+      "gear": "-",
+      "seller": { "name": "Urla Gayrimenkul", "date": "Kasım 2018", "phone": "0 (232) 754 12 34" }
+    },
+    { 
+      "id": 32, 
+      "title": "Antalya'da Lüks Daire", 
+      "image": "https://picsum.photos/800/600?random=32", 
+      "price": "4.200.000 TL", 
+      "location": "Antalya / Muratpaşa", 
+      "date": "26 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Rezidans", 
+      "year": 2022, 
+      "fuel": "Klima", 
+      "gear": "-",
+      "seller": { "name": "Sunny Homes", "date": "Aralık 2020", "phone": "0 (242) 321 00 00" }
+    },
+    { 
+      "id": 33, 
+      "title": "Bursa'da Site İçi", 
+      "image": "https://picsum.photos/800/600?random=33", 
+      "price": "3.100.000 TL", 
+      "location": "Bursa / Nilüfer", 
+      "date": "26 Aralık 2025", 
+      "brand": "Konut", 
+      "model": "Daire", 
+      "year": 2015, 
+      "fuel": "Doğalgaz", 
+      "gear": "-",
+      "seller": { "name": "Bursa Emlak", "date": "Ocak 2013", "phone": "0 (224) 444 16 16" }
+    },
+    { 
+      "id": 34, 
+      "title": "Dizel Otomatik Focus", 
+      "image": "https://picsum.photos/800/600?random=34", 
+      "price": "1.150.000 TL", 
+      "location": "İstanbul / Ümraniye", 
+      "date": "27 Aralık 2025", 
+      "brand": "Ford", 
+      "model": "Focus", 
+      "year": 2019, 
+      "fuel": "Dizel", 
+      "gear": "Otomatik",
+      "seller": { "name": "Otokoç 2.El", "date": "Şubat 2010", "phone": "0 (216) 555 44 33" }
+    },
+    { 
+      "id": 35, 
+      "title": "Benzinli Clio Düşük Km", 
+      "image": "https://picsum.photos/800/600?random=35", 
+      "price": "920.000 TL", 
+      "location": "İstanbul / Kartal", 
+      "date": "27 Aralık 2025", 
+      "brand": "Renault", 
+      "model": "Clio", 
+      "year": 2021, 
+      "fuel": "Benzin", 
+      "gear": "Manuel",
+      "seller": { "name": "Kartal Oto", "date": "Mart 2015", "phone": "0 (216) 333 22 11" }
+    },
+    { 
+      "id": 36, 
+      "title": "Hasar Kayıtsız Passat", 
+      "image": "https://picsum.photos/800/600?random=36", 
+      "price": "1.650.000 TL", 
+      "location": "Kayseri / Melikgazi", 
+      "date": "28 Aralık 2025", 
+      "brand": "Volkswagen", 
+      "model": "Passat", 
+      "year": 2018, 
+      "fuel": "Dizel", 
+      "gear": "Otomatik",
+      "seller": { "name": "Anadolu Otomotiv", "date": "Nisan 2012", "phone": "0 (352) 222 33 44" }
+    },
+    { 
+      "id": 37, 
+      "title": "BMW 320i M Sport", 
+      "image": "https://picsum.photos/800/600?random=37", 
+      "price": "2.850.000 TL", 
+      "location": "İstanbul / Etiler", 
+      "date": "28 Aralık 2025", 
+      "brand": "BMW", 
+      "model": "320i", 
+      "year": 2020, 
+      "fuel": "Benzin", 
+      "gear": "Otomatik",
+      "seller": { "name": "Borusan Oto", "date": "Mayıs 2009", "phone": "0 (212) 333 44 55" }
+    },
+    { 
+      "id": 38, 
+      "title": "Mercedes C200 AMG", 
+      "image": "https://picsum.photos/800/600?random=38", 
+      "price": "3.100.000 TL", 
+      "location": "İstanbul / Florya", 
+      "date": "29 Aralık 2025", 
+      "brand": "Mercedes", 
+      "model": "C200d", 
+      "year": 2021, 
+      "fuel": "Dizel", 
+      "gear": "Otomatik",
+      "seller": { "name": "Yıldızlar Otomotiv", "date": "Haziran 2016", "phone": "0 (212) 555 66 77" }
+    },
+    { 
+      "id": 39, 
+      "title": "Audi A3 Sedan", 
+      "image": "https://picsum.photos/800/600?random=39", 
+      "price": "1.950.000 TL", 
+      "location": "Ankara / Çayyolu", 
+      "date": "29 Aralık 2025", 
+      "brand": "Audi", 
+      "model": "A3", 
+      "year": 2020, 
+      "fuel": "Benzin", 
+      "gear": "Otomatik",
+      "seller": { "name": "Doğuş Oto", "date": "Temmuz 2011", "phone": "0 (312) 999 88 77" }
+    },
+    { 
+      "id": 40, 
+      "title": "Toyota Corolla Hybrid", 
+      "image": "https://picsum.photos/800/600?random=40", 
+      "price": "1.450.000 TL", 
+      "location": "Antalya / Konyaaltı", 
+      "date": "30 Aralık 2025", 
+      "brand": "Toyota", 
+      "model": "Corolla", 
+      "year": 2022, 
+      "fuel": "Hibrit", 
+      "gear": "Otomatik",
+      "seller": { "name": "Antalya Plaza", "date": "Ağustos 2018", "phone": "0 (242) 222 33 44" }
+    },
+    { 
+      "id": 41, 
+      "title": "Fiat Egea Cross", 
+      "image": "https://picsum.photos/800/600?random=41", 
+      "price": "1.050.000 TL", 
+      "location": "Samsun / Atakum", 
+      "date": "30 Aralık 2025", 
+      "brand": "Fiat", 
+      "model": "Egea Cross", 
+      "year": 2023, 
+      "fuel": "Benzin", 
+      "gear": "Otomatik",
+      "seller": { "name": "Karadeniz Oto", "date": "Eylül 2014", "phone": "0 (362) 444 55 66" }
+    },
+    { 
+      "id": 42, 
+      "title": "Ofis Mobilyaları Takım", 
+      "image": "https://picsum.photos/800/600?random=42", 
+      "price": "15.000 TL", 
+      "location": "İstanbul / İkitelli", 
+      "date": "31 Aralık 2025", 
+      "brand": "Ofis", 
+      "model": "Masa Takımı", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Modoko Mobilya", "date": "Ekim 2010", "phone": "0 (212) 671 00 00" }
+    },
+    { 
+      "id": 43, 
+      "title": "Oyuncu Koltuğu RGB", 
+      "image": "https://picsum.photos/800/600?random=43", 
+      "price": "5.500 TL", 
+      "location": "İstanbul / Avcılar", 
+      "date": "01 Ocak 2026", 
+      "brand": "xDrive", 
+      "model": "15'li", 
+      "year": "2023", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Gamer Store", "date": "Kasım 2021", "phone": "0 (555) 333 22 11" }
+    },
+    { 
+      "id": 44, 
+      "title": "4K Smart TV 55 inç", 
+      "image": "https://picsum.photos/800/600?random=44", 
+      "price": "18.000 TL", 
+      "location": "İstanbul / Maltepe", 
+      "date": "01 Ocak 2026", 
+      "brand": "LG", 
+      "model": "55UQ", 
+      "year": "2023", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Teknosa", "date": "Aralık 2005", "phone": "0 (850) 222 55 99" }
+    },
+    { 
+      "id": 45, 
+      "title": "Robot Süpürge Garantili", 
+      "image": "https://picsum.photos/800/600?random=45", 
+      "price": "9.000 TL", 
+      "location": "İzmir / Bornova", 
+      "date": "02 Ocak 2026", 
+      "brand": "Xiaomi", 
+      "model": "Mop Pro", 
+      "year": "2022", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Akıllı Ev", "date": "Ocak 2020", "phone": "0 (232) 111 22 33" }
+    },
+    { 
+      "id": 46, 
+      "title": "Airfryer Az Kullanılmış", 
+      "image": "https://picsum.photos/800/600?random=46", 
+      "price": "3.000 TL", 
+      "location": "Ankara / Mamak", 
+      "date": "02 Ocak 2026", 
+      "brand": "Philips", 
+      "model": "XXL", 
+      "year": "2023", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Fatma T.", "date": "Şubat 2024", "phone": "0 (543) 987 65 43" }
+    },
+    { 
+      "id": 47, 
+      "title": "Koşu Bandı Profesyonel", 
+      "image": "https://picsum.photos/800/600?random=47", 
+      "price": "12.000 TL", 
+      "location": "İstanbul / Ataşehir", 
+      "date": "03 Ocak 2026", 
+      "brand": "Voit", 
+      "model": "Run", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Spor Dünyası", "date": "Mart 2015", "phone": "0 (216) 555 44 33" }
+    },
+    { 
+      "id": 48, 
+      "title": "Kamp Çadırı 4 Kişilik", 
+      "image": "https://picsum.photos/800/600?random=48", 
+      "price": "2.500 TL", 
+      "location": "Muğla / Fethiye", 
+      "date": "03 Ocak 2026", 
+      "brand": "Quechua", 
+      "model": "Arpenaz", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Doğa Sporları", "date": "Nisan 2018", "phone": "0 (252) 614 00 00" }
+    },
+    { 
+      "id": 49, 
+      "title": "Dslr Fotoğraf Makinesi", 
+      "image": "https://picsum.photos/800/600?random=49", 
+      "price": "14.500 TL", 
+      "location": "İstanbul / Kadıköy", 
+      "date": "04 Ocak 2026", 
+      "brand": "Canon", 
+      "model": "250D", 
+      "year": "2021", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Foto Zeynep", "date": "Mayıs 2010", "phone": "0 (216) 333 44 55" }
+    },
+    { 
+      "id": 50, 
+      "title": "Drone 4K Kamera", 
+      "image": "https://picsum.photos/800/600?random=50", 
+      "price": "28.000 TL", 
+      "location": "İstanbul / Beşiktaş", 
+      "date": "04 Ocak 2026", 
+      "brand": "DJI", 
+      "model": "Mini 3", 
+      "year": "2023", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Hava Çekim", "date": "Haziran 2019", "phone": "0 (532) 111 22 33" }
+    },
+    { 
+      "id": 51, 
+      "title": "Elektrikli Scooter", 
+      "image": "https://picsum.photos/800/600?random=51", 
+      "price": "11.000 TL", 
+      "location": "İstanbul / Pendik", 
+      "date": "05 Ocak 2026", 
+      "brand": "Xiaomi", 
+      "model": "Pro 2", 
+      "year": "2022", 
+      "fuel": "Elektrik", 
+      "gear": "-",
+      "seller": { "name": "E-Mobilite", "date": "Temmuz 2021", "phone": "0 (216) 444 55 66" }
+    },
+    { 
+      "id": 52, 
+      "title": "Kış Lastiği Takım", 
+      "image": "https://picsum.photos/800/600?random=52", 
+      "price": "6.000 TL", 
+      "location": "Ankara / Ostim", 
+      "date": "05 Ocak 2026", 
+      "brand": "Lassa", 
+      "model": "Snoways", 
+      "year": "2023", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Ostim Lastik", "date": "Ağustos 2013", "phone": "0 (312) 354 00 00" }
+    },
+    { 
+      "id": 53, 
+      "title": "Çelik Jant Lastik", 
+      "image": "https://picsum.photos/800/600?random=53", 
+      "price": "8.500 TL", 
+      "location": "İstanbul / Maslak", 
+      "date": "06 Ocak 2026", 
+      "brand": "CMS", 
+      "model": "17 inç", 
+      "year": "-", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Maslak Oto", "date": "Eylül 2011", "phone": "0 (212) 285 00 00" }
+    },
+    { 
+      "id": 54, 
+      "title": "Ses Sistemi 5+1", 
+      "image": "https://picsum.photos/800/600?random=54", 
+      "price": "4.000 TL", 
+      "location": "İzmir / Bornova", 
+      "date": "06 Ocak 2026", 
+      "brand": "Logitech", 
+      "model": "Z906", 
+      "year": "2020", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Ses Dünyası", "date": "Ekim 2016", "phone": "0 (232) 388 00 00" }
+    },
+    { 
+      "id": 55, 
+      "title": "Projeksiyon Cihazı HD", 
+      "image": "https://picsum.photos/800/600?random=55", 
+      "price": "3.500 TL", 
+      "location": "İstanbul / Şişli", 
+      "date": "07 Ocak 2026", 
+      "brand": "Wanbo", 
+      "model": "T2 Max", 
+      "year": "2023", 
+      "fuel": "-", 
+      "gear": "-",
+      "seller": { "name": "Ev Sineması", "date": "Kasım 2022", "phone": "0 (533) 123 45 67" }
+    },
+    { 
+      "id": 56, 
+      "title": "Sahibinden Satılık 3+1", 
+      "image": "https://picsum.photos/800/600?random=56", 
+      "price": "3.650.000 TL", 
+      "location": "İstanbul / Esenyurt", 
+      "date": "07 Ocak 2026", 
+      "brand": "Konut", 
+      "model": "Daire", 
+      "year": 2016, 
+      "fuel": "Doğalgaz", 
+      "gear": "-",
+      "seller": { "name": "Ahmet K.", "date": "Aralık 2019", "phone": "0 (542) 987 65 43" }
+    }
+  ],
+"serviceLinks": {
+    "oto360": {
+      "title": "Oto360",
+      "items": [
+        { "label": "Araç Değerleme", "icon": "chart" },
+        { "label": "Araç Karşılaştırma", "icon": "swap" },
+        { "label": "Araç Hasar Sorgulama", "icon": "wrench" },
+        { "label": "Oto Ekspertiz", "icon": "fileSearch" },
+        { "label": "Kredi Teklifleri", "icon": "percent", "color": "#f39c12" },
+        { "label": "Sıfır Araç Dünyası", "icon": "sparkles" },
+        { "label": "S-Aracım", "icon": "garage" }
+      ]
+    },
+    "emlak360": {
+      "title": "Emlak360",
+      "items": [
+        { "label": "Emlak Endeksi", "icon": "lineChart" },
+        { "label": "Gayrimenkul Ekspertiz", "icon": "fileText" },
+        { "label": "Kredi Teklifleri", "icon": "percent", "color": "#f39c12" },
+        { "label": "Emlak Alım Rehberi", "icon": "bookOpen", "color": "#f2c300" },
+        { "label": "Emlak Kiralama Rehberi", "icon": "bookOpen", "color": "#f2c300" },
+        { "label": "Emlak Satış Rehberi", "icon": "bookOpen", "color": "#f2c300" }
+      ]
+    },
+      "blog": {
+        "title": "Alışveriş Blog",
+        "items": [
+          { "label": "Ev & Yaşam", "icon": "sofa", "color": "#8bc34a" },
+          { "label": "Teknoloji", "icon": "mobile", "color": "#42a5f5" },
+          { "label": "Moda", "icon": "skin", "color": "#ab47bc" },
+          { "label": "Spor & Outdoor", "icon": "bike", "color": "#ffca28" },
+          { "label": "Anne & Bebek", "icon": "pushpin", "color": "#ef5350" }
+        ]
+    }
+  },
+"konutProjeleri": [
+    {
+      "id": 1,
+      "title": "ALTINDORUK 3 PREMİUM",
+      "location": "Ankara / Yenimahalle",
+      "delivery": "Kasım 2025 Teslim",
+      "image": "https://picsum.photos/400/250?random=101"
+    },
+    {
+      "id": 2,
+      "title": "ÖNİZ CENTER",
+      "location": "Ankara / Sincan",
+      "delivery": "Aralık 2027 Teslim",
+      "image": "https://picsum.photos/400/250?random=102"
+    }
+  ],
+  "ilgincIlanlarFooter": [
+    { "id": 1, "title": "Keyiften değil KEDERDEN", "image": "https://picsum.photos/150/100?random=201" },
+    { "id": 2, "title": "WALTER WHITE M...", "image": "https://picsum.photos/150/100?random=202" },
+    { "id": 3, "title": "2022 KIDEMLİ SİLİ...", "image": "https://picsum.photos/150/100?random=203" },
+    { "id": 4, "title": "LA CASA DE PAPE...", "image": "https://picsum.photos/150/100?random=204" },
+    { "id": 5, "title": "DOĞUM GÜNÜ H...", "image": "https://picsum.photos/150/100?random=205" },
+    { "id": 6, "title": "Şampiyonluk Gara...", "image": "https://picsum.photos/150/100?random=206" },
+  { "id": 7, "title": "Patronlararası | A...", "image": "https://picsum.photos/150/100?random=207" }
+],
+"popularContent": {
+    "popularProducts": [
+      { "title": "Fritöz & Airfryer", "image": "https://picsum.photos/100/100?random=301" },
+      { "title": "Gelinlik Modelleri", "image": "https://picsum.photos/100/100?random=302" },
+      { "title": "Blender", "image": "https://picsum.photos/100/100?random=303" },
+      { "title": "Klima", "image": "https://picsum.photos/100/100?random=304" },
+      { "title": "Nişan Elbisesi", "image": "https://picsum.photos/100/100?random=305" }
+    ],
+    "popularBrands": [
+      { "name": "Adidas", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/200px-Adidas_Logo.svg.png" },
+      { "name": "İstikbal", "logo": "https://cdn.dsmcdn.com/seller-store/uploads/1138/d6695f26-5906-4443-85e8-54332462208a.png" },
+      { "name": "Nike", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/200px-Logo_NIKE.svg.png" },
+      { "name": "Xiaomi", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/200px-Xiaomi_logo_%282021-%29.svg.png" },
+      { "name": "Dyson", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Dyson_logo.svg/200px-Dyson_logo.svg.png" },
+      { "name": "IKEA", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/200px-Ikea_logo.svg.png" },
+      { "name": "Rolex", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Rolex_logo.svg/200px-Rolex_logo.svg.png" },
+      { "name": "Hot Wheels", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hot_Wheels_logo.svg/200px-Hot_Wheels_logo.svg.png" },
+      { "name": "RKS", "logo": "https://rksmotor.com.tr/wp-content/uploads/2021/04/rks-logo-yeni-siyah.png" },
+      { "name": "Seiko", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Seiko_logo.svg/200px-Seiko_logo.svg.png" },
+      { "name": "Carraro", "logo": "https://carrarobisiklet.com/wp-content/themes/carraro2019/assets/images/carraro-logo-dark.svg" },
+      { "name": "Enza Home", "logo": "https://cdn.dsmcdn.com/seller-store/uploads/343/c7302484-9097-4228-9844-31f08e43475d.png" }
+    ],
+    "popularSearches": [
+      "iPhone 14", "Togg", "Yenilenmiş Telefonlar", "Yenilenmiş iPhone 14", 
+      "Elektrikli Bisiklet", "iPhone 15 Pro", "Bisiklet", 
+      "Yenilenmiş Apple iPhone", "Yenilenmiş iPhone 11", "14 Pro Max", 
+      "Yenilenmiş iPhone 12", "Yenilenmiş iPhone 13", "Laptop", "Oyuncu Koltuğu"
+    ],
+    "zeroCarWorld": [
+      "Renault Fiyat Listesi", "Honda Fiyat Listesi", "BMW Fiyat Listesi", 
+      "Opel Fiyat Listesi", "Mercedes-Benz Fiyat Listesi", "Fiat Fiyat Listesi", 
+      "Audi Fiyat Listesi", "Dacia Fiyat Listesi", "Volkswagen Fiyat Listesi", 
+      "Toyota Fiyat Listesi"
+    ],
+    "popularServices": [
+      "Boyacı", "Evden Eve Nakliye", "Mantolama", "Su Tesisatı", 
+      "Doğal Gaz Tesisatı", "Periyodik Bakım", "Oto Ekspertiz", 
+      "Elektrikçi", "Çilingir", "Plaka", "Parke", "Mutfak Yenileme"
+    ],
+    "popularJobs": [
+      "Restoran ve Konaklama", "Mağaza ve Perakendecilik", "Tekstil ve Konfeksiyon", 
+      "Ofis Elemanı", "Satış", "Müşteri Hizmetleri", "İstanbul İş İlanları", 
+      "Ankara İş İlanları", "İzmir İş İlanları", "Adana İş İlanları", 
+      "Bursa İş İlanları", "Antalya İş İlanları"
+    ]
+  }
+}

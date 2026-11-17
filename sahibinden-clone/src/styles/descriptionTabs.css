@@ -1,0 +1,60 @@
+/* Genel Konteyner */
+.description-tabs-container {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* --- Sekme Başlıkları (Tab Headers) --- */
+
+/* Tablo Başlıklarının Genel Yapısı */
+.custom-tabs .ant-tabs-nav {
+  margin-bottom: 0 !important; /* Başlık ile içerik arasındaki boşluğu sıfırla */
+}
+
+/* Pasif Sekmeler (Tıklanmamış Olanlar) */
+.custom-tabs .ant-tabs-tab {
+  background-color: #f5f5f5 !important; /* Hafif gri/beyaz arka plan */
+  border: 1px solid #ddd !important;
+  border-bottom: none !important;
+  border-radius: 4px 4px 0 0 !important;
+  margin-right: 5px !important;
+  color: #0d4e96 !important; /* Sahibinden Mavisi link rengi */
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+/* Aktif Sekme (Şu an seçili olan - SARI) */
+.custom-tabs .ant-tabs-tab-active {
+  background-color: #ffd100 !important; /* O meşhur sarı renk */
+  border-color: #e5bc00 !important;
+  color: #333 !important; /* Siyah yazı */
+}
+
+/* Aktif Sekme içindeki yazı rengi zorlaması */
+.custom-tabs .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #333 !important;
+}
+
+/* --- İçerik Alanı (Content Box) --- */
+.custom-tabs .ant-tabs-content-holder {
+  border: 1px solid #ddd; /* Kutunun çerçevesi */
+  border-top: 3px solid #ffd100; /* Üstteki kalın sarı çizgi */
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* İçerik Başlığı (Açıklama) */
+.tab-section-title {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.description-text p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+}

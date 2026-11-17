@@ -1,0 +1,214 @@
+/* --- GENEL SAYFA DÜZENİ --- */
+.detail-container {
+  padding: 20px 0 50px 0;
+  background-color: #ffffff;
+  min-height: 80vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Breadcrumb */
+.detail-breadcrumb {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.detail-breadcrumb a {
+  color: #666;
+  transition: color 0.2s;
+}
+.detail-breadcrumb a:hover {
+  color: #1657c8;
+  text-decoration: underline;
+}
+
+/* --- BAŞLIK ALANI (HEADER) --- */
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; /* Başlık ve butonları alt hizala */
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+/* H1 Başlık stili (Ant Design override) */
+.detail-header h3.ant-typography {
+  margin: 0;
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  max-width: 70%;
+}
+
+/* Sağ Üst Butonlar (Favori, Paylaş vb.) */
+.header-actions {
+  display: flex;       /* Butonları yan yana dizer */
+  align-items: center; /* Dikeyde ortalar */
+  gap: 15px;           /* Butonlar arasına 15px boşluk bırakır */
+}
+
+.header-actions .ant-btn-text {
+  color: #666;
+  font-size: 13px;
+  padding: 0 5px;
+}
+
+.header-actions .ant-btn-text:hover {
+  color: #1657c8; /* Mavi hover */
+  background-color: transparent;
+}
+
+/* --- SOL KOLON: GALERİ --- */
+.listing-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Büyük Resim Alanı */
+.main-image-wrapper {
+  width: 100%;
+  height: 480px; /* Sabit yükseklik, taşmayı önler */
+  background-color: #f2f2f2;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Resmi kesmeden sığdır */
+}
+
+/* Küçük Resimler (Thumbnails) */
+.thumbnail-list {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto; /* Çok resim olursa yana kayar */
+  padding-bottom: 5px;
+}
+
+.thumb-item {
+  width: 80px;
+  height: 60px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.2s;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.thumb-item:hover {
+  opacity: 1;
+}
+
+/* Seçili olan küçük resim */
+.thumb-item.active {
+  border-color: #1657c8; /* Mavi çerçeve */
+  opacity: 1;
+}
+
+/* --- SAĞ KOLON: BİLGİ TABLOSU --- */
+.listing-info-sidebar {
+  padding-left: 10px; /* Galeri ile araya boşluk */
+}
+
+/* Fiyat */
+.listing-price {
+  color: #1657c8; /* Sahibinden mavisi */
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1;
+}
+
+/* Konum */
+.listing-location {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Özellikler Tablosu */
+.info-table {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0; /* Satır altı çizgi */
+  padding: 7px 0;
+  font-size: 13px;
+}
+
+/* Son satırın çizgisini kaldır */
+.info-row:last-child {
+  border-bottom: none;
+}
+
+/* Tablo Sol (Label) */
+.info-label {
+  font-weight: 700; /* Kalın */
+  color: #333;
+}
+
+/* Tablo Sağ (Değer) */
+.info-value {
+  color: #333;
+  text-align: right;
+}
+
+/* Kırmızı yazı (İlan No vb. için) */
+.red-text {
+  color: #d13737;
+  font-weight: 700;
+}
+
+/* Mobil Uyumluluk */
+@media (max-width: 768px) {
+  .detail-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .header-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  
+  .main-image-wrapper {
+    height: 300px; /* Mobilde resim yüksekliğini azalt */
+  }
+  
+  .listing-info-sidebar {
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+/* Resimlerin taşmasını önlemek için */
+.gallery-container img {
+    width: 100%;       /* Sabit px değil, %100 olmalı */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Ant Design Col'larının sıkışmasını önlemek için */
+.ant-col {
+    max-width: 100%;
+}

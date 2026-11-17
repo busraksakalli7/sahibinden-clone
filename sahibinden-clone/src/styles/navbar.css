@@ -1,0 +1,209 @@
+/* --- SAHIBINDEN NAVBAR CSS (DÜZELTİLMİŞ) --- */
+
+.sahibinden-navbar {
+  width: 100%;
+  height: 64px;
+  background: #3f475f; /* Navbar Ana Rengi */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Container */
+.sahibinden-navbar .container {
+  width: 100%;
+  max-width: 1150px; 
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Sol Taraf (Logo) */
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Logo ile arama kutusu arasına biraz boşluk koyduk */
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.sahibinden-logo {
+  height: auto;
+  width: 160px; /* Logo çok büyüktü, ideal boyuta çektim */
+  display: block;
+  object-fit: contain;
+}
+
+.sahibinden-logo:hover {
+  opacity: 0.9;
+}
+
+/* --- ORTA KISIM: ARAMA --- */
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 550px;
+}
+
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Input Alanı */
+.search-box {
+  width: 250px; /* Biraz genişlettim */
+  height: 36px;
+  background: #2f3546;
+  padding-left: 10px;
+  padding-right: 35px;
+  font-size: 13px; /* Fontu okunabilir yaptım */
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search-box::placeholder {
+  color: #ccc;
+  opacity: 0.8;
+}
+
+.search-box:focus {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  color: #ccc;
+  pointer-events: none;
+  font-size: 16px;
+}
+
+.search-box:focus + .search-icon {
+  color: #333;
+}
+
+/* Detaylı Arama Linki */
+.detailed-search-link {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.detailed-search-link:hover {
+  text-decoration: underline;
+}
+
+/* --- SAĞ KISIM: BUTONLAR VE KULLANICI MENÜSÜ --- */
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Sağa yaslar */
+  gap: 15px; /* Elemanlar arası boşluk */
+}
+
+/* Giriş Yap / Hesap Aç Linkleri */
+.login-btn,
+.register-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* --- YENİ EKLENEN: GİRİŞ YAPILINCA GÖRÜNEN ALAN --- */
+.user-logged-in-area {
+  display: flex;
+  align-items: center;
+}
+
+/* Kullanıcı Dropdown Linki (İsim Kısmı) */
+.user-dropdown-link {
+  display: flex;
+  align-items: center;
+  color: #fff !important; /* Beyaz renk zorunlu */
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.user-dropdown-link:hover {
+  background: rgba(255, 255, 255, 0.1); /* Hover olunca hafif parlasın */
+}
+
+.username-text {
+  margin: 0 8px;
+  text-transform: capitalize;
+}
+
+/* İlan Ver Butonu */
+.ad-btn {
+  height: 36px;
+  padding: 0 20px;
+  background: #489af1;
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ad-btn:hover {
+  background: #2d6fdc;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .sahibinden-navbar {
+    height: auto;
+    padding: 10px 0;
+  }
+  
+  .sahibinden-navbar .container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .nav-left {
+    margin-right: 0;
+  }
+  
+  .nav-right {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,316 @@
+/* Sayfa Arka Planı */
+.sahibinden-login-page {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.login-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo Görsel Ayarı - GÜNCELLENMİŞ */
+.brand-logo-img {
+  width: 180px !important;   /* Genişliği artırdık (Logoyu büyütür) */
+  height: auto !important;   /* Yükseklik orantılı olarak artar */
+  display: block;
+  object-fit: contain;       /* Resmi bozmadan sığdırır */
+}
+
+/* Beyaz Kart */
+.login-container-card {
+  background-color: #fff;
+  width: 440px;
+  max-width: 90%;
+  border: 1px solid #e5e5e5;
+  padding: 48px 40px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.login-heading {
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+/* Inputlar */
+.sahibinden-input {
+  height: 44px;
+  border-radius: 4px;
+  border-color: #d9d9d9;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.sahibinden-input:hover, .sahibinden-input:focus {
+  border-color: #3e7ce7;
+  box-shadow: 0 0 0 2px rgba(62, 124, 231, 0.1);
+}
+
+/* Hata Durumu */
+.sahibinden-input.ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+  border-color: #ff4d4f;
+}
+
+/* Password Input Wrapper Düzeltmesi */
+.sahibinden-input.ant-input-password {
+  padding: 0;
+}
+.sahibinden-input input {
+  height: 42px;
+  border-radius: 4px;
+}
+
+/* Form Item Margin */
+.login-container-card .ant-form-item {
+  margin-bottom: 16px;
+}
+
+.login-container-card .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Checkbox ve Link Hizalaması */
+.form-row-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.sahibinden-checkbox .ant-checkbox-inner {
+  border-radius: 2px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #3e7ce7;
+  border-color: #3e7ce7;
+}
+
+.forgot-pass-link {
+  color: #2d6fdc;
+  text-decoration: none;
+}
+
+.forgot-pass-link:hover {
+  text-decoration: underline;
+}
+
+/* Mavi Buton */
+.sahibinden-submit-btn {
+  background-color: #3e7ce7;
+  border-color: #3e7ce7;
+  height: 44px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.sahibinden-submit-btn:hover,
+.sahibinden-submit-btn:focus {
+  background-color: #2d6fdc !important;
+  border-color: #2d6fdc !important;
+}
+
+/* Hesap Aç Linki */
+.register-text {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+
+.register-text .register-link {
+  color: #2d6fdc;
+  font-weight: 600;
+  margin-left: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.register-text .register-link:hover {
+  text-decoration: none;
+}
+
+/* VEYA Ayırıcı */
+.divider-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+  color: #999;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #e5e5e5;
+}
+
+.divider-content {
+  padding: 0 16px;
+}
+
+/* Sosyal Butonlar */
+.social-login-btn {
+  height: 44px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d9d9d9;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.social-login-btn:hover {
+  background-color: #fafafa !important;
+  color: #333 !important;
+  border-color: #d9d9d9 !important;
+}
+
+.social-login-btn .anticon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+/* Alt Metinler */
+.legal-text {
+  font-size: 11px;
+  color: #999;
+  margin-top: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.legal-text a {
+  color: #2d6fdc;
+  text-decoration: none;
+}
+
+.legal-text a:hover {
+  text-decoration: underline;
+}
+
+.qr-section {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
+
+.qr-section a {
+  color: #2d6fdc;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Sayfa Sonu Footer */
+.login-footer-text {
+  margin-top: 32px;
+  font-size: 11px;
+  color: #999;
+  text-align: center;
+  max-width: 600px;
+  padding: 0 20px 20px;
+  line-height: 1.4;
+}
+
+.login-footer-text a {
+  color: #2d6fdc;
+  text-decoration: none;
+}
+
+.login-footer-text a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .login-container-card {
+    padding: 32px 24px;
+  }
+}
+
+/* --- ÖNEMLİ DÜZELTMELER --- */
+
+/* 1. Placeholder Rengi (Silik Gri) */
+.sahibinden-input::placeholder {
+  color: #999;
+  font-weight: 400;
+}
+
+/* 2. Tarayıcı Otomatik Doldurma (Autofill) Mavi Arka Planını Beyaz Yapma */
+.sahibinden-input input:-webkit-autofill,
+.sahibinden-input input:-webkit-autofill:hover, 
+.sahibinden-input input:-webkit-autofill:focus, 
+.sahibinden-input input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important; /* Arka planı beyaza boyar */
+  -webkit-text-fill-color: #333 !important; /* Yazı rengini siyah yapar */
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* 3. Şifre alanı için ekstra kural */
+.sahibinden-input.ant-input-password input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+/* --- Register Sayfası İçin Eklenen Stiller --- */
+
+/* Input içindeki bilgi ikonunun rengi */
+.input-info-icon {
+  color: #999;
+  font-size: 16px;
+}
+
+/* "Zaten hesabın var mı?" metni için */
+.login-link-text {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* "Kurumsal Hesap aç" linki için */
+.corporate-link {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.corporate-link a {
+  color: #2d6fdc;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.corporate-link a:hover {
+  text-decoration: underline;
+}
+
+/* Register sayfası footer metni için özel stil */
+.register-footer-text {
+  max-width: 700px; /* Metin daha uzun olduğu için genişliği artırdık */
+  line-height: 1.5;
+}
